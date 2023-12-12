@@ -1,0 +1,1 @@
+This is written using javascript and not by hands.
