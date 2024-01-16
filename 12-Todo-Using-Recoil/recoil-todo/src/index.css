@@ -1,20 +1,4 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-/* styles.css */
-
-body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -34,11 +18,12 @@ body {
 }
 
 .input-container {
+  display: flex; /* Make the input and button inline */
   margin-bottom: 20px;
 }
 
 input[type="text"] {
-  width: 100%;
+  flex: 1; /* Take up the available space */
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -46,7 +31,6 @@ input[type="text"] {
 }
 
 button {
-  width: 100%;
   padding: 10px;
   background-color: #4caf50;
   color: #fff;
